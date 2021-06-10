@@ -1,0 +1,35 @@
+.centered {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+/*  background-color: white;
+*/}
+#ktoe_guy {
+  position: fixed;
+  top: 20%;
+  left: 20%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+/*  display: none; 
+*/  z-index: 1;
+  transition: 0.3s;
+}
+.sparkles {
+    display: none; 
+
+}
+.logo {
+  padding: 10px;
+}
+
+p {
+  font-size: 22px;
+  margin-bottom:  -10px;
+}
+
+body
+{
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
